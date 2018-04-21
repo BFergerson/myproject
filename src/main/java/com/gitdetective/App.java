@@ -9,9 +9,19 @@ public class App {
         System.out.println("Hello World!");
     }
     
-    public static void internalCall() {
+    public static void internalCall1() {
         MyClass yay = new MyClass();
         yay.myMethod();
+    }
+    
+    public static void internalCall2() {
+        MyClass yay = new MyClass();
+        yay.myMethod2();
+    }
+    
+    public static void internalCall3() {
+        MyClass yay = new MyClass();
+        yay.myMethod2();
     }
 
 }
