@@ -23,5 +23,15 @@ public class App {
         MyClass yay = new MyClass();
         yay.myMethod2();
     }
+    
+    public static void internalCall4() {
+        MyClass yay = new MyClass();
+        yay.myMethod2();
+    }
+    
+    public static void internalCall5() {
+        MyClass yay = new MyClass();
+        yay.myMethod2();
+    }
 
 }
