@@ -4,6 +4,8 @@ package com.gitdetective;
  * Hello world!
  */
 public class App {
+    
+    private static final int test = doThing(4);
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
