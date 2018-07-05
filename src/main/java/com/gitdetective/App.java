@@ -6,6 +6,9 @@ package com.gitdetective;
 public class App {
     
     private static final int test = doThing(4);
+    static {
+        new MyClass().myMethod();
+    }
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
