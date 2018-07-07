@@ -5,9 +5,10 @@ package com.gitdetective;
  */
 public class App {
     
-    private static final int test = doThing(4);
+    //private static final int test = doThing(4);
     static {
-        new MyClass().myMethod();
+        //new MyClass().myMethod();
+        int test = doThing(4);
     }
 
     public static void main(String[] args) {
