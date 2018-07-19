@@ -9,6 +9,7 @@ public class App {
     static {
         //new MyClass().myMethod();
         int test = doThing(4);
+        doThing2(5, "5");
     }
 
     public static void main(String[] args) {
@@ -54,6 +55,10 @@ public class App {
 
     private static int doThing(int x) {
         return x * x;
+    }
+    
+    private static void doThing2(int x, String w) {
+        System.out.println(x * x);
     }
 
 }
