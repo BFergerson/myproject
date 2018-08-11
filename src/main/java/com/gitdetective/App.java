@@ -28,28 +28,28 @@ public class App {
     public static void internalCall2() {
         System.out.println("hi2");
         MyClass yay = new MyClass();
-        yay.myMethod2();
+        yay.myMethod2("test");
         System.out.println(doThing(2));
     }
     
     public static void internalCall3() {
         System.out.println("hi2");
         MyClass yay = new MyClass();
-        yay.myMethod2();
+        yay.myMethod2("test");
         System.out.println(doThing(2));
     }
     
     public static void internalCall4() {
         System.out.println("hi2");
         MyClass yay = new MyClass();
-        yay.myMethod2();
+        yay.myMethod2("test");
         System.out.println(doThing(2));
     }
     
     public static void internalCall5() {
         System.out.println("hi2");
         MyClass yay = new MyClass();
-        yay.myMethod2();
+        yay.myMethod2("test");
         System.out.println(doThing(2));
     }
 
